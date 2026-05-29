@@ -1,5 +1,12 @@
 # API Testing Framework
 
+[![CI](https://github.com/d4tr3s14/api-testing-framework/actions/workflows/ci.yml/badge.svg)](https://github.com/d4tr3s14/api-testing-framework/actions/workflows/ci.yml)
+![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)
+![pytest](https://img.shields.io/badge/tested%20with-pytest-0a9edc.svg)
+![Contract testing](https://img.shields.io/badge/contracts-JSON%20Schema-6f42c1.svg)
+![Reporting](https://img.shields.io/badge/reporting-Allure-orange.svg)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 A **professional REST API testing framework** built with `pytest` + `requests`,
 covering functional, security, boundary, and **contract (JSON Schema)** testing,
 with **Allure** reporting and CI.
@@ -144,6 +151,15 @@ api-testing-framework/
 - **requests** (HTTP), **jsonschema** (contract testing)
 - **FastAPI** + **uvicorn** (self-contained system under test)
 - **Allure** (reporting), **GitHub Actions** (CI)
+
+## Related project
+
+This framework validates the fictional **"Veridian"** platform at the
+**API layer**. Its companion,
+[**data-quality-framework**](https://github.com/d4tr3s14/data-quality-framework),
+validates the same platform at the **data/warehouse layer** (BDD data-quality
+and on-premise → cloud migration testing with behave + BigQuery/DuckDB).
+Together they demonstrate end-to-end quality coverage.
 
 ## Notes
 
