@@ -1,0 +1,14 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Customer",
+  "type": "object",
+  "required": ["id", "full_name", "email", "segment", "status"],
+  "properties": {
+    "id": { "type": "integer" },
+    "full_name": { "type": "string", "minLength": 1 },
+    "email": { "type": "string", "pattern": "^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$" },
+    "segment": { "type": "string", "enum": ["RETAIL", "PREMIUM", "PRIVATE"] },
+    "status": { "type": "string" }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CustomerList",
+  "type": "object",
+  "required": ["items", "total", "limit", "offset"],
+  "properties": {
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "full_name", "email", "segment", "status"],
+        "properties": {
+          "id": { "type": "integer" },
+          "full_name": { "type": "string" },
+          "email": { "type": "string" },
+          "segment": { "type": "string", "enum": ["RETAIL", "PREMIUM", "PRIVATE"] },
+          "status": { "type": "string" }
+        },
+        "additionalProperties": false
+      }
+    },
+    "total": { "type": "integer", "minimum": 0 },
+    "limit": { "type": "integer", "minimum": 1 },
+    "offset": { "type": "integer", "minimum": 0 }
+  },
+  "additionalProperties": false
+}

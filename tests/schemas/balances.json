@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CustomerBalances",
+  "type": "object",
+  "required": ["customer_id", "balances"],
+  "properties": {
+    "customer_id": { "type": "integer" },
+    "balances": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["fund", "balance_clp", "share_pct"],
+        "properties": {
+          "fund": { "type": "string", "enum": ["A", "B", "C", "D", "E"] },
+          "balance_clp": { "type": "number" },
+          "share_pct": { "type": "number", "minimum": 0, "maximum": 100 }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

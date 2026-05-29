@@ -1,0 +1,11 @@
+# Framework de pruebas de API + API de demostración (autocontenido).
+
+# --- Pruebas ---
+pytest~=8.3
+requests~=2.31
+jsonschema~=4.23
+allure-pytest~=2.13
+
+# --- Sistema bajo prueba (API mock local) ---
+fastapi~=0.115
+uvicorn~=0.30
