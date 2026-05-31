@@ -1,0 +1,17 @@
+HTTP 422 (1 ms)
+{
+  "detail": [
+    {
+      "type": "missing",
+      "loc": [
+        "body",
+        "full_name"
+      ],
+      "msg": "Field required",
+      "input": {
+        "email": "a@b.com",
+        "segment": "RETAIL"
+      }
+    }
+  ]
+}

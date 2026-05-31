@@ -1,0 +1,23 @@
+HTTP 422 (1 ms)
+{
+  "detail": [
+    {
+      "type": "missing",
+      "loc": [
+        "body",
+        "client_id"
+      ],
+      "msg": "Field required",
+      "input": {}
+    },
+    {
+      "type": "missing",
+      "loc": [
+        "body",
+        "client_secret"
+      ],
+      "msg": "Field required",
+      "input": {}
+    }
+  ]
+}

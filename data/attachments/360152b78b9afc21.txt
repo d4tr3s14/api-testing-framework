@@ -1,0 +1,2 @@
+GET http://127.0.0.1:49961/api/v1/customers
+Query params: {'limit': 0}

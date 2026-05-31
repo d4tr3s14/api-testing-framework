@@ -1,0 +1,29 @@
+HTTP 422 (1 ms)
+{
+  "detail": [
+    {
+      "type": "string_too_short",
+      "loc": [
+        "body",
+        "client_id"
+      ],
+      "msg": "String should have at least 1 character",
+      "input": "",
+      "ctx": {
+        "min_length": 1
+      }
+    },
+    {
+      "type": "string_too_short",
+      "loc": [
+        "body",
+        "client_secret"
+      ],
+      "msg": "String should have at least 1 character",
+      "input": "",
+      "ctx": {
+        "min_length": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+HTTP 401 (1 ms)
+{
+  "detail": "Token inválido o expirado."
+}

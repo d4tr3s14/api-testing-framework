@@ -1,0 +1,17 @@
+HTTP 422 (2 ms)
+{
+  "detail": [
+    {
+      "type": "enum",
+      "loc": [
+        "body",
+        "segment"
+      ],
+      "msg": "Input should be 'RETAIL', 'PREMIUM' or 'PRIVATE'",
+      "input": "GOLD",
+      "ctx": {
+        "expected": "'RETAIL', 'PREMIUM' or 'PRIVATE'"
+      }
+    }
+  ]
+}

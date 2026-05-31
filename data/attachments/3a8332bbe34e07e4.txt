@@ -1,0 +1,16 @@
+HTTP 422 (1 ms)
+{
+  "detail": [
+    {
+      "type": "missing",
+      "loc": [
+        "body",
+        "client_secret"
+      ],
+      "msg": "Field required",
+      "input": {
+        "client_id": "solo-id"
+      }
+    }
+  ]
+}

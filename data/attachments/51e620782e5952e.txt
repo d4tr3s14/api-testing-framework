@@ -1,0 +1,43 @@
+HTTP 200 (2 ms)
+{
+  "items": [
+    {
+      "id": 1,
+      "full_name": "Karen Soto",
+      "email": "cliente1@veridian.example",
+      "segment": "RETAIL",
+      "status": "ACTIVE"
+    },
+    {
+      "id": 5,
+      "full_name": "Felipe Castro",
+      "email": "cliente5@veridian.example",
+      "segment": "RETAIL",
+      "status": "ACTIVE"
+    },
+    {
+      "id": 8,
+      "full_name": "Bruno Munoz",
+      "email": "cliente8@veridian.example",
+      "segment": "RETAIL",
+      "status": "ACTIVE"
+    },
+    {
+      "id": 9,
+      "full_name": "Karen Fuentes",
+      "email": "cliente9@veridian.example",
+      "segment": "RETAIL",
+      "status": "ACTIVE"
+    },
+    {
+      "id": 13,
+      "full_name": "Carla Castro",
+      "email": "cliente13@veridian.example",
+      "segment": "RETAIL",
+      "status": "ACTIVE"
+    }
+  ],
+  "total": 5,
+  "limit": 100,
+  "offset": 0
+}

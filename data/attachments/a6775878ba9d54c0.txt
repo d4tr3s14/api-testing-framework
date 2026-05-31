@@ -1,0 +1,6 @@
+POST http://127.0.0.1:49961/auth/token
+Body:
+{
+  "client_id": "veridian-demo",
+  "client_secret": "demo-secret"
+}

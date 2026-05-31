@@ -1,0 +1,4 @@
+HTTP 401 (2 ms)
+{
+  "detail": "Falta el token de autenticación."
+}
