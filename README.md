@@ -5,6 +5,7 @@
 ![pytest](https://img.shields.io/badge/tested%20with-pytest-0a9edc.svg)
 ![Contract testing](https://img.shields.io/badge/contracts-JSON%20Schema-6f42c1.svg)
 ![Reporting](https://img.shields.io/badge/reporting-Allure-orange.svg)
+[![Allure Report](https://img.shields.io/badge/Allure-live%20report-fa4d56?logo=allure)](https://d4tr3s14.github.io/api-testing-framework/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A **professional REST API testing framework** built with `pytest` + `requests`,
