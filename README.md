@@ -8,6 +8,9 @@
 [![Allure Report](https://img.shields.io/badge/Allure-live%20report-fa4d56?logo=allure)](https://d4tr3s14.github.io/api-testing-framework/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
+> 📘 ¿Primera vez o perfil junior? Lee la **[Guía detallada paso a paso](docs/GUIA.md)**
+> (glosario, para qué sirve cada herramienta, ejecución local y CI).
+
 A **professional REST API testing framework** built with `pytest` + `requests`,
 covering functional, security, boundary, and **contract (JSON Schema)** testing,
 with **Allure** reporting and CI.
