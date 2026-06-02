@@ -1,0 +1,7 @@
+POST http://127.0.0.1:55809/api/v1/customers
+Body:
+{
+  "full_name": "Patricia Núñez",
+  "email": "patricia@veridian.example",
+  "segment": "PREMIUM"
+}

@@ -1,4 +1,0 @@
-HTTP 404 (2 ms)
-{
-  "detail": "Cliente 999999 no encontrado."
-}

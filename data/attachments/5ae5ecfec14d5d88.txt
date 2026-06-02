@@ -1,0 +1,17 @@
+HTTP 422 (1 ms)
+{
+  "detail": [
+    {
+      "type": "greater_than_equal",
+      "loc": [
+        "query",
+        "limit"
+      ],
+      "msg": "Input should be greater than or equal to 1",
+      "input": "0",
+      "ctx": {
+        "ge": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+HTTP 201 (1 ms)
+{
+  "id": 16,
+  "full_name": "Patricia Núñez",
+  "email": "patricia@veridian.example",
+  "segment": "PREMIUM",
+  "status": "ACTIVE"
+}

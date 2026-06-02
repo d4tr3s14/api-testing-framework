@@ -1,0 +1,17 @@
+HTTP 422 (1 ms)
+{
+  "detail": [
+    {
+      "type": "string_pattern_mismatch",
+      "loc": [
+        "body",
+        "email"
+      ],
+      "msg": "String should match pattern '^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$'",
+      "input": "no-es-email",
+      "ctx": {
+        "pattern": "^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$"
+      }
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+HTTP 200 (1 ms)
+{
+  "access_token": "ef619d414b0e4bbdab3839ad30b62e7c",
+  "token_type": "bearer",
+  "expires_in": 3600
+}

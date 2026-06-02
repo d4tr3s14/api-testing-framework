@@ -1,7 +1,0 @@
-POST http://127.0.0.1:49961/api/v1/customers
-Body:
-{
-  "full_name": "Nombre Valido",
-  "email": "a@b.com",
-  "segment": "GOLD"
-}

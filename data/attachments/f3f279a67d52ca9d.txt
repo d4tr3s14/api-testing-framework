@@ -1,0 +1,21 @@
+HTTP 200 (1 ms)
+{
+  "customer_id": 1,
+  "balances": [
+    {
+      "fund": "A",
+      "balance_clp": 80403982.0,
+      "share_pct": 38.62
+    },
+    {
+      "fund": "B",
+      "balance_clp": 66545938.0,
+      "share_pct": 31.97
+    },
+    {
+      "fund": "E",
+      "balance_clp": 61226254.0,
+      "share_pct": 29.41
+    }
+  ]
+}

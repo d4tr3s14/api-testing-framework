@@ -1,0 +1,6 @@
+POST http://127.0.0.1:55809/api/v1/customers
+Body:
+{
+  "email": "a@b.com",
+  "segment": "RETAIL"
+}

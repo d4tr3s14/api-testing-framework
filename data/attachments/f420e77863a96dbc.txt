@@ -1,0 +1,5 @@
+POST http://127.0.0.1:55809/auth/token
+Body:
+{
+  "client_id": "solo-id"
+}
